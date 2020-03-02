@@ -27,7 +27,7 @@ public class MapManager : MonoBehaviour
     public bool showDebugGrid = true;
     public List<Vector3> debugLockRemoved;
 
-    [ContextMenu("InitializeMap")]
+    [ContextMenu("InitializeMap Pls")]
     public void InitializeMap()
     {
         // ====== Intialization des Datas.
