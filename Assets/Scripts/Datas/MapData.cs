@@ -44,18 +44,10 @@ public enum Alignment
     Player
 }
 
-public enum BrushType
-{
-    One,
-    Line
-}
-
 [Serializable]
 public struct SquareData
 {
     public SquareState state;
 
     public Alignment aligment;
-
-    public BrushType brushType;
 }
